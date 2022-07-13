@@ -1,13 +1,8 @@
 import "../todo-list/TodoList.css";
 
-const TodoList = () => {
-  return (
-    <ul>
-      <li>Lear ReactJS</li>
-      <li>Build Tools</li>
-      <li>Record</li>
-    </ul>
-  );
+const TodoList = (props) => {
+  console.log(props.dataTodos);
+  return <ul></ul>;
 };
 
 export default TodoList;
