@@ -6,6 +6,7 @@ const Todo = () => {
     { id: 1, title: "Web Developer" },
     { id: 2, title: "UI UX Designer" },
     { id: 3, title: "Data Analyst" },
+    { id: 4, title: "Cyber Security" },
   ];
 
   return (
