@@ -1,16 +1,12 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import Todo from "./components/todo/Todo";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <h1 className="header">Hello World!</h1>
-      <p>This is a paragraph.</p>
+    <div className="App">
+      <Todo />
     </div>
   );
-
-  // return React.createElement("h1", { class: "header" }, "Hello World!");
-}
+};
 
 export default App;
